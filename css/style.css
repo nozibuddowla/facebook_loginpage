@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #3D5A99;
+    padding: 10px 0;
+    border: 1px solid #133783;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo a{
+	display: block;
+}
+.logo img{
+    width: 110%;
+	margin-top: 38px;
+}
+.log-in_align{
+	width: 60%;
+	float: right;
+}
+.log-in{
+	float: right;
+	color: white;
+}
+.for_login {
+    text-align: left;
+}
+.for_login th {
+    font-size: 12px;
+}
+.for_login input[type="email"] {
+    width: 142px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+    border: 1px solid #1d2a5b;
+}
+.for_login button {
+    background: #4267B2;
+    border: 1px solid #29487d;
+    padding: 4px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+.for_login a {
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+main {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 30px 0;
+}
+.content {
+    width: 45%;
+    float: left;
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0e385f;
+    margin: 20px 0 5px;
+    line-height: 1.5;
+}
+.content img {
+    width: 100%;
+}
+.account {
+    width: 42%;
+    float: right;
+}
+.account h1 {
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.account p {
+    font-size: 19px;
+    color: #1d2129;
+    margin: 10px 0;
+}
+.account .form table tr {
+    display: block;
+}
+.account .form .first_name {
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-right: 10px;
+    width: 172px;
+    border: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.account .form .sur_name:last-child{
+    margin-right: 0;
+}
+.account .form .sur_name{
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 172px;
+    border: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.account .form .ur_email{
+	font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    width: 377px;
+    margin: 5px 0;
+}
+.dob {
+    overflow: hidden;
+}
+.dob p {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dob ul li {
+    list-style: none;
+    float: left;
+}
+.dob ul li select {
+    font-size: 13px;
+    color: #1c1e21;
+    height: 30px;
+    padding: 5px 15px 5px 5px;
+    background-color: #fff;
+}
+.gender {
+    display: block;
+}
+.gender p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #90949c;
+}
+.gender input {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+}
+.policy p{
+	font-size: 11px;
+	color: #777;
+}
+.policy p a {
+    color: #385898;
+    text-decoration: none;
+}
+button.signup_button{
+    width: 194px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 7px 20px;
+    background: linear-gradient(#67ae55, #578843);
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #a4e388;
+    margin: 15px 0;
+    display: block;
+}
+p.page{
+	font-size: 13px;
+	color: #666;
+	font-weight: bold;
+}
+p.page a{
+	color: #385898;
+	text-decoration: none;
+}
